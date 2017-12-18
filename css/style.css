@@ -1,0 +1,72 @@
+.container {
+	margin: 100px auto;
+	width: 250px;
+	height: 375px;
+	border-radius: 10px;
+	box-shadow: 1px 5px 5px;
+	font-family: Orbitron;
+	background-color: #E0D7D2;
+}
+
+h3 {
+	padding-top: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+button {
+	width: 42px;
+	height: 40px;
+	margin: 5px -18px 5px 25px;
+	font-size: 1.2em;
+	font-family: Orbitron;
+	background-color: #303435;
+	color: #FFFFFF;
+	border-radius: 5px;
+	outline: none;
+}
+
+button[value="="] {
+	height: 91px;
+	position: relative;
+	top: -50px;
+}
+
+button[value="0"] {
+	width: 95px;
+}
+
+button[value="0"], button[value="."] {
+	position: relative;
+	top: -25px;
+}
+
+button[value="AC"], button[value="CE"] {
+	background-color: #A53048;
+}
+
+#screen {
+	width: 170px
+	height: 60px;
+	margin: 10px 25px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	background-color: #C3C3AB;
+}
+
+#entry {
+	display: block;
+	height: 40px;
+	text-align: right;
+	font-size: 1.4em;
+	padding: 2px;
+}
+
+#history {
+	display: block;
+	height: 15px;
+	text-align: right;
+	padding: 2px;
+	font-size: 0.7em;
+}
